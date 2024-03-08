@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ProjectCard from "@/components/project-card";
+import ProjectCard from "../components/project-card";
 
 
 const ProjectContainer = () => {

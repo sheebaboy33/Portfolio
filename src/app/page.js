@@ -1,8 +1,11 @@
 "use client";
 
-import HeroSection from "@/components/heroSection";
-import ProjectContainer from "@/components/project-container";
+import HeroSection from "../components/heroSection";
+import ProjectContainer from "../components/project-container";
+import About from "../components/about";
 import React from "react";
+import "../app.scss"
+import Navbar from "../components/navbar/Navbar";
 
 /*
  * Plan for the UI
@@ -20,9 +23,15 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to my Personal Portfolio Website</h1>
-      <HeroSection />
-      <ProjectContainer />
+      <section>
+        <Navbar />
+      </section>
+      <section>Parallax</section>
+      <section>Services</section>
+      <section>Parallax</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Contact</section>
     </div>
   );
 }
