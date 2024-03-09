@@ -1,8 +1,5 @@
 "use client";
 
-import HeroSection from "../components/heroSection";
-import ProjectContainer from "../components/project-container";
-import About from "../components/about";
 import React from "react";
 import "../app.scss"
 import Navbar from "../components/navbar/Navbar";
@@ -23,15 +20,16 @@ import Navbar from "../components/navbar/Navbar";
 export default function Home() {
   return (
     <div>
-      <section>
+      <section id="Introduction">
         <Navbar />
       </section>
-      <section>Parallax</section>
-      <section>Services</section>
-      <section>Parallax</section>
+      <section id="About">Parallax</section>
+      <section>About me</section>
+      <section id="Skills">Skills</section>
+      <section id="Projects">Parallax</section>
       <section>Portfolio1</section>
       <section>Portfolio2</section>
-      <section>Contact</section>
+      <section id="Contact">Contact</section>
     </div>
   );
 }
