@@ -3,6 +3,7 @@
 import React from "react";
 import "../app.scss"
 import Navbar from "../components/navbar/Navbar";
+import Hero from "../components/hero/Hero";
 
 /*
  * Plan for the UI
@@ -22,6 +23,7 @@ export default function Home() {
     <div>
       <section id="Introduction">
         <Navbar />
+        <Hero />
       </section>
       <section id="About">Parallax</section>
       <section>About me</section>
