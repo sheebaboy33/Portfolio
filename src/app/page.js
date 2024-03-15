@@ -4,6 +4,7 @@ import React from "react";
 import "../app.scss"
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
+import Portfolio from "../components/portfolio/Portfolio";
 
 /*
  * Plan for the UI
@@ -25,12 +26,9 @@ export default function Home() {
         <Navbar />
         <Hero />
       </section>
-      <section id="About">Parallax</section>
-      <section>About me</section>
-      <section id="Skills">Skills</section>
-      <section id="Projects">Parallax</section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
+      <section id="About">About</section>
+      <section id="Projects">Projects</section>
+      <Portfolio />
       <section id="Contact">Contact</section>
     </div>
   );
