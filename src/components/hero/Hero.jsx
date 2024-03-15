@@ -32,8 +32,8 @@ const backgroundTextVariants = {
   animate: {
     x: "-1530%",
     transition: {
-        repeat: Infinity,
-        repeatType: "mirror",
+      repeat: Infinity,
+      repeatType: "mirror",
       duration: 40,
     },
   },
@@ -47,7 +47,8 @@ const Hero = () => {
           className="textContainer"
           variants={textVariants}
           initial="initial"
-          animate="animate">
+          animate="animate"
+        >
           <motion.h2 variants={textVariants}>SHARM FERNANDO</motion.h2>
           <motion.h1 variants={textVariants}>
             Computer Science Student with a Passion for Software Engineering
@@ -70,7 +71,8 @@ const Hero = () => {
         className="slidingTextContainer"
         variants={backgroundTextVariants}
         initial="initial"
-        animate="animate">
+        animate="animate"
+      >
         Web Development | Software Engineering | Competitive Programming | ML
         Enthusiast
       </motion.div>

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import "../app.scss"
+import "../app.scss";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import Portfolio from "../components/portfolio/Portfolio";
