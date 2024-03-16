@@ -5,6 +5,7 @@ import "../app.scss";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import Portfolio from "../components/portfolio/Portfolio";
+import Contact from "../components/contact/Contact"; 
 
 /*
  * Plan for the UI
@@ -27,9 +28,10 @@ export default function Home() {
         <Hero />
       </section>
       <section id="About">About</section>
-      <section id="Projects">Projects</section>
       <Portfolio />
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 }

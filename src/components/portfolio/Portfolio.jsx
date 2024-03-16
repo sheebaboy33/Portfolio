@@ -58,7 +58,7 @@ const items = [
   {
     id: 7,
     title: "Portfolio Website Project",
-    img: "https://pics.filmaffinity.com/This_Is_It-992354512-large.jpg",
+    img: "https://www.deeplearningdaily.com/wp-content/uploads/2021/03/stochastic-gradient-descent-algorithm-with-python-and-numpy_603d2800488bf.jpeg",
     description: "This is a project description",
     skills: ["NextJS", "Sass", "Framer Motion"],
   },
