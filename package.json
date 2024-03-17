@@ -10,15 +10,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "emailjs": "^4.0.3",
     "framer-motion": "^10.16.4",
+    "from": "^0.1.7",
+    "import": "^0.0.6",
     "lucide-react": "^0.344.0",
     "next": "14.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.68.0"
+    "sass": "^1.68.0",
+    "sonner": "^1.4.3"
   },
   "devDependencies": {
     "@types/node": "20.11.25",
