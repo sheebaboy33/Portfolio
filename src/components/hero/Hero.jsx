@@ -54,10 +54,10 @@ const Hero = () => {
             Computer Science Student with a Passion for Software Development
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.button variants={textVariants} onClick={() => window.location.href = "#Projects"}>
               See my Projects
             </motion.button>
-            <motion.button variants={textVariants}>Contact me </motion.button>
+            <motion.button variants={textVariants} onClick={() => window.location.href = "#Contact"}>Contact me </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
