@@ -12,22 +12,21 @@ const Navbar = () => {
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-        >
+          transition={{ duration: 0.5 }}>
           Sharm Fernando
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://www.linkedin.com/in/sharm-fernando-11755125b/">
+            <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a href="https://twitter.com/SharmFernando33">
+            <img src="/twitter.jpg" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a href="https://github.com/sheebaboy33">
+            <img src="/github.jpeg" alt="" />
           </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+          <a href="https://medium.com/@sharmfernando33">
+            <img src="/medium.png" alt="" />
           </a>
         </div>
       </div>
