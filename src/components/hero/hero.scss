@@ -23,6 +23,14 @@
       position: relative;
       z-index: 2;
 
+            @include mobile {
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
       h2 {
         font-size: 30px;
         color: #8a80d5;
@@ -32,6 +40,10 @@
       h1 {
         font-size: 60px;
         color: white;
+
+      @include mobile {
+          font-size: 26px;
+        }
       }
 
       .buttons {
@@ -60,6 +72,13 @@
     top: 80px;
     right: 0;
     z-index: 2;
+
+        @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
 
     img {
       width: 100%;
