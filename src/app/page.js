@@ -7,6 +7,7 @@ import Hero from "../components/hero/Hero";
 import Portfolio from "../components/portfolio/Portfolio";
 import Contact from "../components/contact/Contact"; 
 import { Toaster } from "sonner";
+import About from "../components/about/About";
 
 /*
  * Plan for the UI
@@ -28,8 +29,11 @@ export default function Home() {
         <Navbar />
         <Hero />
       </section>
-      <section id="About">About</section>
+      <section id="About">
+        <About />
+      </section>
       <Portfolio />
+      {/* Certifications */}
       <section id="Contact">
         <Contact />
         <Toaster position="bottom-right" />

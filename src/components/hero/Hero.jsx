@@ -51,7 +51,7 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>SHARM FERNANDO</motion.h2>
           <motion.h1 variants={textVariants}>
-            Computer Science Student with a Passion for Software Engineering
+            Computer Science Student with a Passion for Software Development
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
