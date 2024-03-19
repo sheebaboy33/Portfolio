@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import "./hero.scss";
 import { motion } from "framer-motion";
@@ -47,17 +49,22 @@ const Hero = () => {
           className="textContainer"
           variants={textVariants}
           initial="initial"
-          animate="animate"
-        >
+          animate="animate">
           <motion.h2 variants={textVariants}>SHARM FERNANDO</motion.h2>
           <motion.h1 variants={textVariants}>
             Computer Science Student with a Passion for Software Development
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants} onClick={() => window.location.href = "#Projects"}>
+            <motion.button
+              variants={textVariants}
+              onClick={() => (window.location.href = "#Projects")}>
               See my Projects
             </motion.button>
-            <motion.button variants={textVariants} onClick={() => window.location.href = "#Contact"}>Contact me </motion.button>
+            <motion.button
+              variants={textVariants}
+              onClick={() => (window.location.href = "#Contact")}>
+              Contact me{" "}
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -71,8 +78,7 @@ const Hero = () => {
         className="slidingTextContainer"
         variants={backgroundTextVariants}
         initial="initial"
-        animate="animate"
-      >
+        animate="animate">
         Web Development | Software Engineering | Competitive Programming | ML
         Enthusiast
       </motion.div>

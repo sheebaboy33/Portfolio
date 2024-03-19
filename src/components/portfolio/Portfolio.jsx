@@ -1,8 +1,9 @@
+"use client";
+
 import React from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { join } from "path";
 
 
   const driectToProject = (url) => {

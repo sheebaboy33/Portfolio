@@ -1,3 +1,5 @@
+"use client";
+
 import "./contact.scss";
 import React, { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";

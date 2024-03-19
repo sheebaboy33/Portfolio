@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import "./about.scss";
 
@@ -15,7 +17,7 @@ const About = () => {
           alongside a solid understanding of data structures and algorithms.
           Additionally, I have gained experience in backend development using
           Node.js frameworks such as Express and NestJS, with aspirations to
-          delve deeper into these areas.
+          delve deeper into these areas moving forward.
         </p>
         <p>
           Looking ahead to 2024, I am excited to explore the realm of mobile app
