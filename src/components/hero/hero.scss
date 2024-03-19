@@ -33,15 +33,18 @@
         gap: 30px;
         align-items: center;
         text-align: center;
+        padding-bottom: 40px;
       }
 
       h2 {
-        font-size: 30px;
+        font-size: 20px;
         color: #8a80d5;
         letter-spacing: 10px;
 
       @include mobile {
-          font-size: 20px;
+          font-size: 14px;
+          letter-spacing: 5px;
+          line-height: 18px;
         }
       }
 
@@ -50,7 +53,8 @@
         color: white;
 
       @include mobile {
-          font-size: 28px;
+          font-size: 20px;
+          line-height: 30px;
         }
       }
 
@@ -86,10 +90,11 @@
     z-index: 2;
 
     @include mobile {
-      height: 45%;
+      height: 50%;
       width: 100%;
       top: unset;
-      bottom: 0;
+      bottom: -30px;
+      margin-right: 10px;
     }
 
     img {
