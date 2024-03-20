@@ -9,6 +9,7 @@
   gap: 50px;
 
 @include mobile {
+    padding: 15% 0;
     width: 100%;
     flex-direction: column;
     gap: 10px;
@@ -23,6 +24,8 @@
     gap: 40px;
 
     @include mobile {
+      padding: 15% 15% 0 15%;
+      margin: 0;
       gap: 10px;
       text-align: center;
       align-items: center;
@@ -55,10 +58,12 @@
   .formContainer {
     flex: 1;
     position: relative;
+    margin: 80px;
 
     @include mobile {
-        padding-left: 5px;
+      padding: 0 15%;
       width: 100%;
+      margin: 0;
     }
 
     form {
@@ -95,6 +100,7 @@
 
         @include mobile {
     padding: 10px;
+    width: calc(100%); // Adjust according to mobile padding
   }
     }
   }
