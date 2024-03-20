@@ -13,7 +13,7 @@
     height: 100%;
 
     @include mobile {
-      justify-content: flex-end;
+      justify-content:flex-start;
       padding: 20px;
     }
 
@@ -34,8 +34,8 @@
         height: 25px;
 
         @include mobile {
-          width: 20px;
-          height: 20px;
+          width: 30px;
+          height:30px;
         }
       }
     }

@@ -41,7 +41,7 @@
 
       @include mobile {
         flex-direction: column;
-        gap: 0px;  
+        gap: 20px;  
         padding-bottom: 220px;
       }
 
@@ -65,7 +65,7 @@
 
          @include mobile {
             object-fit: contain;
-            margin-top: 100px;
+            margin-top: 140px;
           }
         }
       }
@@ -121,6 +121,8 @@
           padding: 10px;
           width: 200px;
           cursor: pointer;
+          color: white;
+          font-weight: 300;
 
         }
       }

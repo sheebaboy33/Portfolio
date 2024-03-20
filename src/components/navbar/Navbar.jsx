@@ -23,7 +23,7 @@ const Navbar = () => {
             <img src="/twitter.jpg" alt="" />
           </a>
           <a href="https://github.com/sheebaboy33">
-            <img src="/github.jpeg" alt="" />
+            <img  src="/github.png" alt="" />
           </a>
           <a href="https://medium.com/@sharmfernando33">
             <img src="/medium.png" alt="" />
